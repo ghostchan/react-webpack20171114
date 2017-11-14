@@ -1,6 +1,4 @@
-function component(){
-    var element=document.createElement('div');
-    element.innerHTML=('Hello Jinnjjjyyuuuj');
-    return element;
-}
-document.body.appendChild(component());
+import React from 'react';
+import ReactDOM from 'react-dom';
+ReactDOM.render(<div>Hello Jinn555</div>,
+    document.getElementById("app"));
